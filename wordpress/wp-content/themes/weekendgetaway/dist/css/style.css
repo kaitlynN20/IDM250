@@ -1,0 +1,214 @@
+@import "../bootstrap/css/bootstrap.css";
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+/*nav bar*/
+.navbar{
+    background-color: #C2B280; !important
+}
+
+.navbar-brand{
+    color: #FFFFFF;
+}
+
+.nav-item a{
+    color: #FFFFFF;
+}
+
+span.navbar-toggler-icon img{
+}
+a.dropdown-item{
+    color: black;
+}
+
+/*hero*/
+.hero{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(../img/hero_img.png);
+    background-size: cover;
+}
+
+.hero-ac{
+    height: 50vh;
+    width: 100vw;
+    background-image: url(../img/hero_img.png);
+}
+
+.hero-404{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../img/404-background.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.container-fluid .center{
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+h1.title-404{font-size: 5rem;}
+
+.container-fluid.hero{
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid.hero-overlay{
+    background-color: rgba(151,181,213,0.6);
+    height: 30%;
+    text-align:center;
+}
+
+.hero-overlay p{
+    padding: 2.5rem;
+    color: white;
+    height: inherit;
+}
+
+.container-fluid.slideshow{
+    padding: 2rem;
+}
+
+.blue-bck{background-color: #97B5D5;}
+
+.blue-bck h2{color: white;}
+
+/*house features*/
+.container-fluid {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding: 2rem;
+}
+
+.container-fluid.house-features ul{
+    list-style-position: inside;
+}
+
+.container-fluid.house-features .row{padding:0 2rem 0 2rem;}
+
+.container-fluid.house-features .col-md{
+    background-color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+.container-fluid.house-features .col-md-3{
+    background-color: white;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.button-container{text-align: center;}
+.container-fluid.house-features .boxprice{
+    text-align: center;    
+}
+
+.container-fluid.house-features .boxfeatures ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.container-fluid.house-features .boxfeatures li{
+    display: flex;
+    padding: 1rem 0rem;
+}
+
+.boxfeatures li img{
+    padding-right: 2rem;
+}
+
+.container-fluid.things2do .boardwalks .col{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.container-fluid.things2do .boardwalks .col h3{
+    font-weight: 300;
+}
+
+/* single page */
+.container-fluid .slideshow-single{
+    padding: 1rem; !important
+}
+
+.carousel-inner .carousel-item .container-fluid h3{
+    padding-bottom: .4rem;
+}
+
+.container-fluid.amusement .container-fluid img{
+    width: inherit;
+}
+
+.section-padding{
+    height: 6vh;
+}
+
+span.carousel-control-next-icon-blue{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2397B5D5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+span.carousel-control-prev-icon-blue{
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2397B5D5' 3viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.container-fluid.restuarants{
+    height: 237vh; !important
+}
+
+.container-fluid.beaches{
+    height: 115vh; !important
+}
+
+/*search*/
+.search-name{
+    padding: 1.5rem 0;
+    display: flex;
+}
+
+.search-name img{
+    width: 14%;
+    margin-right: 1.3rem;
+}
+
+.search-name h2{
+    width: 75%;
+    border-bottom: solid;
+}
+
+.search-results p.title{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.search-results p.secondary{
+    color: #96CEB4;
+    padding-bottom: .5rem;
+}
+
+.search-results{padding-bottom: 2rem;}
+
+h2.archive-title{
+    padding: 1.5rem 0;
+}
